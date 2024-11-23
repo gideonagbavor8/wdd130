@@ -68,6 +68,9 @@ article{
 article img{
     float: right;
 }
+article h2{
+    color: var(--background-color);
+}
 .article-content p {
     color: var(--accent2-color);
 }
@@ -97,25 +100,25 @@ article img{
 }
 .hero article{
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
     background-color: rgba(39, 29, 214, 0.537);
     padding: 10px;
     margin: 30px;
     border-radius: 10px;
     width: 90%;
+    height: 140px;
 }
 
 .hero article p{
-    float: right;
+    /* float: right; */
     color: var(--background-color);
     /* top: 20px; */
     font-size: large;
 }
 .hero article img{
-    float: right;
     width: 200px;
-    height: 100px;
+    height: 140px;
     border-radius: 5px;
     margin-left: 10px;
 }
