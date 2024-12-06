@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home - Quiz Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <!-- <header><h1>WDD 130 | Gideon Komla Agbavor | HTML Form - Quiz Form</h1></header> -->
+    <main>
+        <h1>HTML & CSS Quiz</h1>
+        <form>
+            <div class="form-item">
+                <label for="q1"><span>1.</span> What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+
+            <div class="form-item">
+                <label for="q2"><span>2.</span> Describe the purpose of CSS in web development.</label> 
+                <textarea id="q2" name="q2" rows="5"></textarea> 
+            </div>
+            <label for="q3"><span>3.</span> Which of the following is a valid CSS property?</label> 
+            <select id="q3" name="q3" required> 
+            <option value="" selected disabled>Choose one...</option> 
+            <option value="color">color</option> 
+            <option value="font">font</option> 
+            <option value="background">background</option> 
+            </select>
+
+            <div class="form-item last-label">
+                <label for="q4"><span>4.</span> How many heading tags are there in HTML?</label> <input type="number" id="q4" name="q4" min="1" max="6" required>
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; | HTML Form - Quiz Form | Gideon Komla Agbavor
+    </footer>
+</body>
+</html>
