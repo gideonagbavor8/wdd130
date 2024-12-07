@@ -86,14 +86,93 @@ main{
     /* padding: 20px; */
 }
 
-h1 {
+.about-us{
     position: absolute;
     color: var(--background-color);
     font-family: var(--heading-font);
     justify-content: center;
     text-align: center;
     background-color: rgba(233, 233, 238, 0.619);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
 }
+
+.contact-us{
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.company-info{
+    color: var(--background-color);
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: var(--accent1-color);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.company-info h2{
+    font-size: 1.5rem;
+
+}
+
+.company-info p{
+    font-size: 1rem;
+}
+.company-info a{
+    color: var(--background-color);
+}
+
+
+.employee {
+    color: var(--background-color);
+    margin-bottom: 5rem;
+    padding: 4px 2rem;
+    background-color: var(--accent1-color);
+}
+
+.employee h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.employee img {
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.employee figcaption{
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.employee-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee figure{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message label{
+    padding-right: 0;
+}
+
 
 h2 {
     font-size: 2em;
@@ -258,6 +337,72 @@ section img{
     margin: 5px;
 }
 
+
+form{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--accent1-color);
+    color: var(--background-color);
+    display: grid;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+
+fieldset{
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+}
+legend{
+    padding: 0.5rem;
+    /* color: navy; */
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 15px;
+    vertical-align: bottom;
+    margin-top: 15px;
+}
+
+
+button{
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: var(--primary-color);
+}
+
 footer {
     max-width: 1150px;
     margin: 0 auto;
@@ -276,15 +421,22 @@ footer {
 }
 
 .footer-content p{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-content: space-between;
     align-items: center;
     /* text-align: center; */
     margin: 0;
     /* color: var(--accent1-color); */
     /* font-family: var(--body-font); */
     font-size: 1.1rem;
-    padding-left: 20rem;
+    /* padding-left: 20rem; */
+}
+.footer-content p a{
+    color: var(--accent1-color);
+    text-decoration: none;
+    /* font-size: 1rem; */
+    margin: 1rem;
+    padding-right: 10rem;
 }
 
 .social-icons{
