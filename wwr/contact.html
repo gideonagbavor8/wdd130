@@ -18,7 +18,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="./">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -75,7 +75,7 @@
                     <input type="email" id="useremail" name="useremail">
                 </div>
 
-                <div class="message">
+                <div>
                     <label>Purpose:</label>
                     <input type="radio" id="general" name="purpose"         value="General Inquiry">
                     <label for="general">General Inquiry</label>
@@ -84,8 +84,12 @@
                     <input type="radio" id="suggestion" name="purpose"      value="Website Suggestion">
                     <label for="suggestion">Website Suggestion</label>
 
-                    <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" rows="5"  placeholder="Type your message here" required></textarea>
+
+                    <div class="message">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="65" placeholder="Type your message here" required>
+                        </textarea>
+                    </div>
 
                     <div class="subscribe">
                         <input type="checkbox" id="subscribe" name="subscribe">
