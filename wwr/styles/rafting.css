@@ -284,10 +284,6 @@ form input, form select, form button{
     border-radius: 8px;
     transition: transform ease-in-out;
 }
-#faq p:hover{
-    background-color: var(--accent1-color);
-    color: var(--background-color);
-}
 #map{
     color: var(--accent1-color);
     background: #f4f4ff;
@@ -543,9 +539,6 @@ section{
     margin-top: 0;
     font-size: 1.8rem;
 }
-.welcome{
-    align-items: center;
-}
 .welcome .explore-button{
     align-items: center;
     margin: 5rem;
@@ -568,23 +561,24 @@ section{
 .newsletter button{
     margin-top: 0.9rem;
 }
-.newsletter input{
-    margin: .2rem;
-}
 
+/* .newsletter input{
+    margin: .2rem;
+}  */
+/* 
 #newsletter form{
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
-}
+} */
 
 
 
 
-#newsletter label, #newsletter input, #newsletter button{
+/* #newsletter label, #newsletter input, #newsletter button{
     margin-bottom: 1rem;
-}
+} */
 
 
 
@@ -597,7 +591,7 @@ section{
 
 }
 
-#explore p{
+p{
     font-size: 1.5rem;
 }
 
@@ -784,12 +778,8 @@ footer {
     display: grid;
     justify-content: space-between;
     align-items: center;
-    /* text-align: center; */
     margin: 0;
-    /* color: var(--accent1-color); */
-    /* font-family: var(--body-font); */
     font-size: 1.1rem;
-    /* padding-left: 20rem; */
 }
 .footer-content p a{
     color: var(--accent1-color);
