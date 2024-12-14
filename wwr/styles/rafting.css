@@ -307,9 +307,7 @@ form input, form select, form button{
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-.company-info p{
-    font-size: 1rem;
-}
+
 .company-info a{
     color: var(--background-color);
 }
