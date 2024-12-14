@@ -91,6 +91,12 @@ main{
     /* padding: 20px; */
 }
 
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
 
 #reviews{
     color: var(--accent1-color);
@@ -98,11 +104,6 @@ main{
     padding: 2rem;
     margin-bottom: 1.5rem;
 
-}
-#reviews h2{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 0;
 }
 
 #reviews p{
@@ -128,13 +129,6 @@ main{
     text-align: center;
     margin-bottom: 1.5rem;
 
-}
-
-#gallery h2{
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    margin-top: 0;
 }
 
 #gallery p{
@@ -169,13 +163,6 @@ main{
     margin-bottom: 1.5rem;
     color: var(--accent1-color);
     /* font-size: 20rem; */
-}
-
-#trips h2{
-    margin-bottom: 1.5rem;
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .trip-container{
@@ -226,12 +213,6 @@ main{
     color: var(--accent1-color);
     
 }
-#trip-gallery h2{
-    margin-bottom: 1.5rem;
-    font-size: 2.5rem;
-    /* text-align: center; */
-    /* margin-bottom: 2rem; */
-}
 
 .gallery-cont{
     display: grid;
@@ -243,14 +224,6 @@ main{
 .gallery-item img{
     max-width: 100%;
     height: auto;
-}
-
-
-#booking h2{
-    color: var(--accent1-color);
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 #booking{
@@ -304,11 +277,6 @@ form input, form select, form button{
     margin-bottom: 1.5rem;
 }
 
-#faq h2{
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
-}
 #faq p{
     padding: 1.3rem;
     font-size: 1.4rem;
@@ -343,12 +311,6 @@ form input, form select, form button{
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
-.company-info h2{
-    font-size: 1.5rem;
-
-}
-
 .company-info p{
     font-size: 1rem;
 }
@@ -362,12 +324,6 @@ form input, form select, form button{
     margin-bottom: 2rem;
     padding: 4px 2rem;
     background-color: var(--accent1-color);
-}
-
-.employee h2{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .employee img {
@@ -437,12 +393,12 @@ input[type="radio"]{
     display: flex;
 }
 
-.history h2{
+/* .history h2{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-}
+} */
 
 .history-content p{
     padding: 1px;
@@ -468,11 +424,11 @@ input[type="radio"]{
     color: var(--background-color);
 }
 
-.adventure h2{
+/* .adventure h2{
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
-}
+} */
 
 .adventure-grid{
     display: flex;
@@ -501,25 +457,18 @@ input[type="radio"]{
     margin-top: 0.5rem;
     text-align: center;
 }
-
-
-
-
-
 article{
     position: absolute;
 }
 article img{
     float: right;
 }
-article h2{
+/* article h2{
     color: var(--background-color);
-}
+} */
 .article-content p {
     color: var(--accent2-color);
 }
-
-
 .hero{
     position: relative;
     background-size: cover;
@@ -531,7 +480,6 @@ article h2{
     height: 100%;
     object-fit: cover;
 }
-
 .hero h1 {
     position: absolute;
     display: block;
@@ -574,12 +522,7 @@ section{
     border-bottom: 3px solid var(--accent2-color);
 }
 
-#newsletter h2{
-    text-align: center;
-    font-size: 2rem;
-}
-
-#newsletter-welcome {
+#newsletter-welcome { 
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -655,12 +598,6 @@ section{
 
 }
 
-#explore h2{
-    margin-top: 0;
-    text-align: center;
-    font-size: 2rem;
-}
-
 #explore p{
     font-size: 1.5rem;
 }
@@ -691,11 +628,6 @@ section{
     margin-bottom: 1.5rem;
     /* margin-top: 1.5rem; */
 
-}
-
-#offerings h2{
-    margin-bottom: 1.5rem;
-    font-size: 2.5rem;
 }
 #offerings h3{ 
     font-size: 1.4rem;
@@ -755,11 +687,11 @@ form .form-item{
     margin: 1.2rem;
     padding: 0.1rem;
 }
-form h2{
+/* form h2{ */
     /* align-items: center; */
-    text-align: center;
-    font-size: 2.5rem;
-}
+    /* text-align: center; */
+    /* font-size: 2.5rem; */
+/* } */
 
 .container{
     /* position: relative; */
