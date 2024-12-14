@@ -570,7 +570,6 @@ section{
 }
 .newsletter input{
     margin: .2rem;
-    min-width: none;
 }
 
 #newsletter form{
